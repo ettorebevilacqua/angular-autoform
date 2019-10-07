@@ -1,0 +1,28 @@
+<h1>Reactive Forms</h1>
+
+
+  <div class="container">
+    <a routerLinkActive="active" 
+       routerLink="/profile">Profile</a> |
+
+    <a routerLinkActive="active" 
+       routerLink="/name">name</a> | 
+
+    <a routerLinkActive="active" 
+      routerLink="/catalog">Catalog</a> | 
+    
+    <a routerLinkActive="active" 
+      routerLink="/dinamic">Dinamc</a> 
+      
+    <router-outlet></router-outlet>
+  </div>
+
+<!-- <nav>
+  <a (click)="toggleEditor('name')">Name Editor</a>
+  <a (click)="toggleEditor('profile')">Profile Editor</a>
+</nav>
+
+<app-name-editor *ngIf="showNameEditor"></app-name-editor>
+
+<app-profile-editor *ngIf="showProfileEditor"></app-profile-editor>
+--> 
